@@ -1,12 +1,14 @@
 import React from "react"
 import { SafeAreaView, StyleSheet, View, Text } from "react-native"
-import Counter from "./Counter"
+import AsyncCall from "./asynCall/AsyncCall"
+import Counter from "./counter/Counter"
 
 const Home =()=>{
     return(
         <SafeAreaView>  
             <View style={styles.container}> 
                 <Counter/>
+                <AsyncCall/>
             </View>   
         </SafeAreaView>)
 }
